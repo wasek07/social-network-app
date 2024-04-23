@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='app-wrapper'>
+      <header className='header'>
+        <img src='https://png.pngtree.com/png-clipart/20220117/original/pngtree-cool-red-wings-logo-png-image_7129340.png'></img>
       </header>
+      <nav className='nav'>
+        <div>Profile</div>
+        <div>Messages</div>
+        <div>News</div>
+        <div>Music</div>
+        <div>Settings</div>
+      </nav>
+        <div className='content'>
+        <img src='https://assets.entrepreneur.com/content/3x2/2000/20200429211042-GettyImages-1164615296.jpeg?format=pjeg&auto=webp&crop=16:9' />
+        </div>
     </div>
   );
 }
