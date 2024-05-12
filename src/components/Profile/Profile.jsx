@@ -1,3 +1,4 @@
+import MyPosts from './MyPosts/MyPosts'
 import s from './Profile.module.css'
 
 function Profile() {
@@ -9,15 +10,7 @@ function Profile() {
           <div>
             ava + desc
           </div>
-          <div>
-            My posts
-            <div className={s.item}>
-              Post1
-            </div>
-            <div className={s.item}>
-              Post2
-            </div>
-          </div>
+          <MyPosts />
         </div>
    )
 }
